@@ -8,7 +8,7 @@ Concepts
 - [ ] Bitwise Operations 
 - [ ] Hashing
 
-Elementary Data Structures
+Data Structures
 - [ ] Stack
 - [ ] Queue
 - [x] ArrayList
@@ -17,8 +17,6 @@ Elementary Data Structures
 - [ ] SkipList
 - [ ] Set
 - [ ] HashTable/HashSet
-
-Graph Data Structures
 - [ ] Binary Search Tree
 - [ ] Heap
 - [ ] Trie
