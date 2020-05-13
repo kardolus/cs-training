@@ -1,4 +1,4 @@
-Job Interview Checklist
+# Training
 
 Concepts
 - [ ] Big O
