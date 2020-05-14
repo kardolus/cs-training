@@ -31,8 +31,8 @@ Sort
 
 Common Problems
 - [ ] Maximum subarray 
-- [ ] Fibonacci iterative
-- [ ] Fibonacci recursive
+- [x] Fibonacci iterative
+- [x] Fibonacci recursive
 - [ ] Fibonacci dynamic programming
 
 Creational Patterns
