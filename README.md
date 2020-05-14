@@ -40,7 +40,7 @@ Creational Patterns
 - [ ] Builder
 - [ ] Factory Method
 - [ ] Prototype
-- [ ] Singleton
+- [x] Singleton
 
 Structural Patterns
 - [ ] Adapter
