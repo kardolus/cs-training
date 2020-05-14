@@ -13,6 +13,7 @@ func main() {
 
 /*
   Implementation below
+  [ Alternatively, use sync.Once ]
 */
 
 var (
