@@ -15,7 +15,7 @@ Data Structures
 - [x] Singly LinkedList
 - [ ] Doubly LinkedList
 - [ ] SkipList
-- [ ] Set
+- [x] Set
 - [ ] HashTable/HashSet
 - [ ] Binary Search Tree
 - [ ] Heap
