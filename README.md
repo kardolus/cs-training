@@ -2,7 +2,7 @@
 ![alt text](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
 
-Concepts
+## Concepts
 - [ ] Big O
 - [ ] Divide and Conquer
 - [ ] Dynamic Programming
@@ -10,7 +10,7 @@ Concepts
 - [ ] Bitwise Operations 
 - [ ] Hashing
 
-Data Structures
+## Data Structures
 - [ ] Stack
 - [ ] Queue
 - [x] ArrayList
@@ -31,20 +31,20 @@ Sort
 - [ ] Heap Sort (Selection)
 - [ ] Merge Sort
 
-Common Problems
+## Common Problems
 - [ ] Maximum subarray 
 - [x] Fibonacci iterative
 - [x] Fibonacci recursive
 - [x] Fibonacci dynamic programming
 
-Creational Patterns
+## Creational Patterns
 - [ ] Abstract Factory
 - [ ] Builder
 - [ ] Factory Method
 - [ ] Prototype
 - [x] Singleton
 
-Structural Patterns
+## Structural Patterns
 - [ ] Adapter
 - [ ] Bridge
 - [ ] Composite
@@ -53,7 +53,7 @@ Structural Patterns
 - [ ] Flyweight
 - [x] Proxy
 
-Behavioral Patterns
+## Behavioral Patterns
 - [ ] Chain of Responsibility
 - [ ] Command
 - [ ] Interpreter
