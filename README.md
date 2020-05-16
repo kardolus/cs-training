@@ -23,7 +23,7 @@ Data Structures
 - [ ] Red-Black Tree
 
 Sort
-- [ ] Bubble Sort (Exchange)
+- [x] Bubble Sort (Exchange)
 - [ ] Quick Sort (Exchange)
 - [ ] Insertion Sort
 - [ ] Heap Sort (Selection)
