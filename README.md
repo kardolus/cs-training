@@ -25,7 +25,7 @@ Data Structures
 Sort
 - [x] Bubble Sort (Exchange)
 - [ ] Quick Sort (Exchange)
-- [ ] Insertion Sort
+- [x] Insertion Sort
 - [ ] Heap Sort (Selection)
 - [ ] Merge Sort
 
