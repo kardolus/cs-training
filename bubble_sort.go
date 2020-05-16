@@ -10,7 +10,7 @@ func main() {
   fmt.Println("sorted:", BubbleSort(unsorted))
 }
 
-func BubbleSort(input []int) []int {
+func BubbleSort(input []int) []int { // O(n^2)
   for i := 0; i < len(input) - 1; i++ {
     bubble(input, len(input) - 1 - i)
   }
@@ -18,7 +18,7 @@ func BubbleSort(input []int) []int {
   return input
 }
 
-func bubble(input []int, index int) { // O(n^2)
+func bubble(input []int, index int) { // O(n)
   for i := 0; i < index; i++ {
     if input[i] > input[i + 1] && i < len(input) - 1 {
       tmp := input[i]
