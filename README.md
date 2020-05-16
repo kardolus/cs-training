@@ -24,7 +24,7 @@
 - [ ] Trie
 - [ ] Red-Black Tree
 
-Sort
+## Sorting
 - [x] Bubble Sort (Exchange)
 - [ ] Quick Sort (Exchange)
 - [x] Insertion Sort
