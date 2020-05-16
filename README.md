@@ -1,4 +1,6 @@
-# Training
+# Computer Science Training
+![alt text](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
+
 
 Concepts
 - [ ] Big O
