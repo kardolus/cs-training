@@ -94,7 +94,7 @@ func (s *Set) copy() {
   }
 }
 
-func (s *Set) indexOf(value int) int { // private, index not guaranteed
+func (s *Set) indexOf(value int) int { // private, order not guaranteed
   for index, d := range s.data {
     if value == d {
       return index
