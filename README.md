@@ -4,7 +4,7 @@ Concepts
 - [ ] Big O
 - [ ] Divide and Conquer
 - [ ] Dynamic Programming
-- [ ] Memory (Stack vs Heap)
+- [x] Memory (Stack vs Heap)
 - [ ] Bitwise Operations 
 - [ ] Hashing
 
