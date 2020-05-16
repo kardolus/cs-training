@@ -49,7 +49,7 @@ Structural Patterns
 - [ ] Decorator
 - [ ] Facade
 - [ ] Flyweight
-- [ ] Proxy
+- [x] Proxy
 
 Behavioral Patterns
 - [ ] Chain of Responsibility
