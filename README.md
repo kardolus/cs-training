@@ -1,4 +1,4 @@
-# Computer Science Training
+# Computer Science Training ![progress 13/37](https://img.shields.io/badge/progress-35%25-green)
 ![alt text](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
 
@@ -65,4 +65,3 @@
 - [ ] Strategy
 - [ ] Template Method
 - [ ] Visitor
-
