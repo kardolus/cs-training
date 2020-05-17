@@ -21,9 +21,6 @@ func main() {
   
   var choiceOne = assembly.Main("Veggie").Toy("Motorcycle").Build()
   var choiceTwo = assembly.Main("BatBurder").Toy("Helicopter").Build()
-  
-  fmt.Printf("%+v\n", choiceOne)
-  fmt.Printf("%+v\n", choiceTwo)
  
   choiceOne.Eat()
   choiceTwo.Eat()
@@ -46,7 +43,7 @@ type SomeOrder struct {
 }
 
 func (s SomeOrder) Eat() {
-  fmt.Println("Cook me some food")
+  fmt.Println("Eating: ", s.YourOrder)
 }
 
 type HappyMeal struct {
