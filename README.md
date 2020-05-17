@@ -11,7 +11,7 @@
 - [ ] Hashing
 
 ## Data Structures
-- [ ] Stack
+- [x] Stack
 - [ ] Queue
 - [x] ArrayList
 - [x] Singly LinkedList
