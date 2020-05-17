@@ -87,9 +87,7 @@ func (s *Set) Contains(value int) bool {
 func (s *Set) copy() {
 	if s.size == len(s.data) {
 		newData := make([]int, s.size*2)
-		for index := range s.data {
-			newData[index] = s.data[index]
-		}
+		copy(newData, s.data)
 		s.data = newData
 	}
 }

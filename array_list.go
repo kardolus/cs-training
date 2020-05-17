@@ -108,9 +108,7 @@ func (l *List) Size() int { // O(1)
 func (l *List) copy() {
 	if len(l.data) == l.size {
 		newData := make([]int, l.size*2)
-		for index := range l.data {
-			newData[index] = l.data[index]
-		}
+		copy(newData, l.data)
 		l.data = newData
 	}
 }
