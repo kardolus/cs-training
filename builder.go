@@ -43,7 +43,7 @@ type SomeOrder struct {
 }
 
 func (s SomeOrder) Eat() {
-  fmt.Println("Eating: ", s.YourOrder)
+  fmt.Println("Eating:", s.YourOrder)
 }
 
 type HappyMeal struct {
