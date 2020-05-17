@@ -7,7 +7,7 @@
 - [ ] Divide and Conquer
 - [ ] Dynamic Programming
 - [x] Memory (Stack vs Heap)
-- [ ] Bitwise Operations 
+- [x] Bitwise Operations 
 - [ ] Hashing
 
 ## Data Structures
