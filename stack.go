@@ -29,7 +29,6 @@ func main() {
   fmt.Println("Contains(3)", stack.Contains(3))
   fmt.Println("Contains(4)", stack.Contains(4))
   
-  fmt.Println("----> Pop()")
   value, err = stack.Pop()
   fmt.Println("Pop() value / err:", value, "/", err)
   fmt.Println("Size()", stack.Size())
@@ -41,7 +40,6 @@ func main() {
   fmt.Println("Size()", stack.Size())
   fmt.Println("Contains(3)", stack.Contains(3))
   
-  fmt.Println("----> Pop()")
   value, err = stack.Pop()
   fmt.Println("Pop() value / err:", value, "/", err)
   
@@ -120,9 +118,8 @@ func (s *Stack) Peek() (int, error) {
 func (s *Stack) copy() {
   if s.size == len(s.data) {
     newData := make([]int, s.size*2)
-    for i := 0; i < s.size; i++ {
-      newData[i] = s.data[i]
-    }
+
+    copy(newData, s.data)
     s.data = newData
   }
 }
