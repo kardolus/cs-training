@@ -41,11 +41,11 @@ type Builder interface {
   Toy(choice string) Builder
 }
 
-type SomeMeal struct {
-  YourMeal string
+type SomeOrder struct {
+  YourOrder string
 }
 
-func (s SomeMeal) Eat() {
+func (s SomeOrder) Eat() {
   fmt.Println("Cook me some food")
 }
 
@@ -84,7 +84,5 @@ func (h HappyMeal) Toy(choice string) Builder {
 
 func (h HappyMeal) Build() Dinner {
   var meal = fmt.Sprintf("%s %s %s %s", h.YourMain, h.YourSide, h.YourDrink, h.YourToy)
-  return SomeMeal{YourMeal: meal}
+  return SomeOrder{YourOrder: meal}
 }
-
-
