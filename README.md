@@ -1,11 +1,11 @@
-# Computer Science Training ![progress 15/37](https://img.shields.io/badge/progress-41%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 16/37](https://img.shields.io/badge/progress-43%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
 
 ## Concepts
 - [ ] Big O
-- [ ] Divide and Conquer
+- [x] Divide and Conquer
 - [ ] Dynamic Programming
 - [x] Memory (Stack vs Heap)
 - [x] Bitwise Operations 
