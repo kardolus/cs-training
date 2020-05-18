@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 14/37](https://img.shields.io/badge/progress-38%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 15/37](https://img.shields.io/badge/progress-41%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -13,7 +13,7 @@
 
 ## Data Structures
 - [x] Stack
-- [ ] Queue
+- [x] Queue
 - [x] ArrayList
 - [x] Singly LinkedList
 - [ ] Doubly LinkedList
