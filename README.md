@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 16/37](https://img.shields.io/badge/progress-43%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 17/37](https://img.shields.io/badge/progress-46%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -30,7 +30,7 @@
 - [ ] Quick Sort (Exchange)
 - [x] Insertion Sort
 - [ ] Heap Sort (Selection)
-- [ ] Merge Sort
+- [x] Merge Sort
 
 ## Common Problems
 - [ ] Maximum subarray 
