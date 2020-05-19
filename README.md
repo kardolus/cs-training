@@ -43,12 +43,12 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Merge Sort](/sorting/merge_sort.go) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) | ✔ |
 
 ## Common Problems
-| Problem | Status |
-|:-------:|:------:|
-| Maximum subarray | ✘ |
-| [Fibonacci iterative](/sorting/fibonacci.go) | ✔ |
-| [Fibonacci recursive](/sorting/fibonacci.go) | ✔ |
-| [Fibonacci dynamic programming](/sorting/fibonacci.go) | ✔ |
+| Problem | Description | Status |
+|:-------:|:------:|:------:|
+| Maximum subarray | Find a contiguous subarray with the largest sum | ✘ |
+| [Fibonacci iterative](/sorting/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
+| [Fibonacci recursive](/sorting/fibonacci.go) | ,, | ✔ |
+| [Fibonacci dynamic programming](/sorting/fibonacci.go) | ,, | ✔ |
 
 ## Creational Patterns
 | Pattern | Description | Status |
