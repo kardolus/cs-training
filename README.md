@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 19/37](https://img.shields.io/badge/progress-51%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 19/36](https://img.shields.io/badge/progress-53%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -17,20 +17,21 @@ It can help to practice using coderpad.io, since it is used for many coding inte
 | Hashing | ✘ |
 
 ## Data Structures
-| Structure | Status |
-|:-------:|:------:|
-| [Stack](/data_structures/stack.go) | ✔ |
-| [Queue](/data_structures/queue.go) | ✔ |
-| [ArrayList](/data_structures/array_list.go) | ✔ |
-| [Singly LinkedList](/data_structures/singly_linked_list.go) | ✔ |
-| Doubly LinkedList | ✘ |
-| SkipList | ✘ |
-| [Set](/data_structures/set.go) | ✔ |
-| HashTable | ✘ |
-| Binary Search Tree | ✘ |
-| Heap | ✘ |
-| Trie | ✘ |
-| Red-Black Tree | ✘ |
+| Structure | Access^ | Search^ | Insertion^ | Deletion^ | Status |
+|:-------:|:------:|:------:|:------:|:------:|:------:|
+| [Stack](/data_structures/stack.go) | Θ(n) |	Θ(n) | Θ(1) | Θ(1) | ✔ |
+| [Queue](/data_structures/queue.go) | Θ(n) |	Θ(n) | Θ(1) | Θ(1) | ✔ |
+| [ArrayList](/data_structures/array_list.go) | Θ(1) | Θ(n) | Θ(n) | Θ(n) | ✔ |
+| [Singly LinkedList](/data_structures/singly_linked_list.go) | Θ(n) |	Θ(n) | Θ(1) | Θ(1) | ✔ |
+| Doubly LinkedList | Θ(n) |	Θ(n) | Θ(1) | Θ(1) | ✘ |
+| SkipList | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
+| [Set](/data_structures/set.go) | Θ(n) |	Θ(n) | Θ(1) | Θ(n) | ✔ |
+| HashTable | N/A | Θ(1) | Θ(1) | Θ(1)| ✘ |
+| Binary Search Tree | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
+| Trie | N/A | N/A | N/A | N/A | ✘ |
+| Red-Black Tree | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
+
+^ = average
 
 ## Sorting
 | Algorithm | Best | Average | Worst | Space (Worst) | Status |
