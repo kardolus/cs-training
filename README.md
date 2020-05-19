@@ -56,13 +56,13 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Abstract Factory | Provides an interface for creating families of releated objects | ✘ |
 | [Builder](/patterns/creational/builder.go) | Builds a complex object using simple objects | ✔ |
 | [Factory Method](/patterns/creational/factory_method.go) | Defers instantiation of an object to a specialized function for creating instances | ✔ |
-| Prototype | | ✘ |
+| Prototype | Co-opt one instance of a class for use as a breeder of all future instances | ✘ |
 | [Singleton](/patterns/creational/singleton.go) | Restricts instantiation of a type to one object | ✔ |
 
 ## Structural Patterns
 | Pattern | Description | Status |
 |:-------:|:------:|:------:|
-| Adapter | | ✘ |
+| Adapter | Wrap an existing class with a new interface | ✘ |
 | Bridge | Decouples an interface from its implementation so that the two can vary independently | ✘ |
 | Composite | Encapsulates and provides access to a number of different objects | ✘ |
 | Decorator | Adds behavior to an object, statically or dynamically | ✘ |
@@ -75,8 +75,8 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 |:-------:|:------:|:------:|
 | Chain of Responsibility | Avoids coupling sender and receiver | ✘ |
 | Command | Bundles a command and arguments to call later | ✘ |
-| Interpreter | | ✘ |
-| Iterator | | ✘ |
+| Interpreter | Define a grammatical representation for a language | ✘ |
+| Iterator | Access the elements of an aggregate object sequentially | ✘ |
 | Mediator | Connects objects and acts as a proxy | ✘ |
 | Memento | Generate an opaque token that can be used to go back to a previous state | ✘ |
 | Observer | Provide a callback for notification of events/changes to data | ✘ |
