@@ -33,13 +33,13 @@ It can help to practice using coderpad.io, since it is used for many coding inte
 | Red-Black Tree | ✘ |
 
 ## Sorting
-| Algorithm | Status |
-|:-------:|:------:|
-| Bubble Sort (Exchange) | ✔ |
-| Quick Sort (Exchange) | ✘ |
-| Insertion Sort | ✔ |
-| Heap Sort (Selection) | ✘ |
-| Merge Sort | ✔ |
+| Algorithm | Best | Average | Worst | Status |
+|:-------:|:------:|:------:|:------:|:------:|
+| [Bubble Sort (Exchange)](/sorting/bubble_sort.go) | Ω(n) | Θ(n^2) | O(n^2) | ✔ |
+| Quick Sort (Exchange) | Ω(n log(n)) | Θ(n log(n)) | O(n^2) | ✘ |
+| [Insertion Sort](/sorting/insertion_sort.go) | Ω(n) | Θ(n^2) | O(n^2) | ✔ |
+| Heap Sort (Selection) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | ✘ |
+| [Merge Sort](/sorting/merge_sort.go) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | ✔ |
 
 ## Common Problems
 | Problem | Status |
