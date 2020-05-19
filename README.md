@@ -84,3 +84,6 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Strategy | Enables an algorithm's behavior to be selected at runtime | ✘ |
 | Template Method | Defines a skeleton class which defers some methods to subclasses | ✘ |
 | Visitor | Separates an algorithm from an object on which it operates | ✘ |
+
+## Acknowledgement
+Got the table design and a bunch of pattern-definitions from this cool repo: https://github.com/tmrts/go-patterns 
