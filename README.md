@@ -7,14 +7,14 @@ I suggest using this list as a warm-up for interview preperation. Follow it up w
 It can help to practice using coderpad.io, since it is used for many coding interviews.
 
 ## Concepts
-| Concept | Status |
-|:-------:|:------:|
-| [Big O](/concepts/bigO.md) | ✔ |
-| [Divide and Conquer](/concepts/divide_and_conquer.md) | ✔ |
-| Dynamic Programming | ✘ |
-| [Memory (Stack vs Heap)](/concepts/memory_stack_heap.md)| ✔ |
-| [Bitwise Operations](/concepts/bitwise.go) | ✔ |
-| Hashing | ✘ |
+| Concept | Description | Status |
+|:-------:|:------:|:------:|
+| [Big O](/concepts/bigO.md) | Growth of run time and space complexity |  ✔ |
+| [Divide and Conquer](/concepts/divide_and_conquer.md) | Design paradigm based on multi-branched recursion | ✔ |
+| Dynamic Programming | An optimization over plain recursion |  ✘ |
+| [Memory (Stack vs Heap)](/concepts/memory_stack_heap.md)| Memory allocation | ✔ |
+| [Bitwise Operations](/concepts/bitwise.go) | Operations on ints and uints at the binary level | ✔ |
+| Hashing | Map data of arbitrary size to fixed-size values | ✘ |
 
 ## Data Structures
 | Structure | Access^ | Search^ | Insertion^ | Deletion^ | Status |
@@ -28,7 +28,7 @@ It can help to practice using coderpad.io, since it is used for many coding inte
 | [Set](/data_structures/set.go) | Θ(n) |	Θ(n) | Θ(1) | Θ(n) | ✔ |
 | HashTable | N/A | Θ(1) | Θ(1) | Θ(1)| ✘ |
 | Binary Search Tree | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
-| Trie | N/A | N/A | N/A | N/A | ✘ |
+| Trie | | | | | ✘ |
 | Red-Black Tree | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
 
 ^ = average
