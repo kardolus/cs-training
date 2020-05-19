@@ -9,23 +9,23 @@ It can help to practice using coderpad.io, since it is used for many coding inte
 ## Concepts
 | Concept | Status |
 |:-------:|:------:|
-| Big O | ✔ |
-| Divide and Conquer | ✔ |
+| [Big O](/concepts/bigO.md) | ✔ |
+| [Divide and Conquer](/concepts/divide_and_conquer.md) | ✔ |
 | Dynamic Programming | ✘ |
-| Memory (Stack vs Heap)| ✔ |
-| Bitwise Operations | ✔ |
+| [Memory (Stack vs Heap)](/concepts/memory_stack_heap.md)| ✔ |
+| [Bitwise Operations](/concepts/bitwise.go) | ✔ |
 | Hashing | ✘ |
 
 ## Data Structures
 | Structure | Status |
 |:-------:|:------:|
-| Stack | ✔ |
-| Queue | ✔ |
-| ArrayList | ✔ |
-| Singly LinkedList | ✔ |
+| [Stack](/data_structures/stack.go) | ✔ |
+| [Queue](/data_structures/queue.go) | ✔ |
+| [ArrayList](/data_structures/array_list.go) | ✔ |
+| [Singly LinkedList](/data_structures/singly_linked_list.go) | ✔ |
 | Doubly LinkedList | ✘ |
 | SkipList | ✘ |
-| Set | ✔ |
+| [Set](/data_structures/set.go) | ✔ |
 | HashTable | ✘ |
 | Binary Search Tree | ✘ |
 | Heap | ✘ |
@@ -45,18 +45,18 @@ It can help to practice using coderpad.io, since it is used for many coding inte
 | Problem | Status |
 |:-------:|:------:|
 | Maximum subarray | ✘ |
-| Fibonacci iterative | ✔ |
-| Fibonacci recursive | ✔ |
-| Fibonacci dynamic programming | ✔ |
+| [Fibonacci iterative](/sorting/fibonacci.go) | ✔ |
+| [Fibonacci recursive](/sorting/fibonacci.go) | ✔ |
+| [Fibonacci dynamic programming](/sorting/fibonacci.go) | ✔ |
 
 ## Creational Patterns
 | Pattern | Status |
 |:-------:|:------:|
 | Abstract Factory | ✘ |
-| Builder | ✔ |
-| Factory Method | ✔ |
+| [Builder](/patterns/creational/builder.go) | ✔ |
+| [Factory Method](/patterns/creational/factory_method.go) | ✔ |
 | Prototype | ✘ |
-| Singleton | ✔ |
+| [Singleton](/patterns/creational/singleton.go) | ✔ |
 
 ## Structural Patterns
 | Pattern | Status |
@@ -67,7 +67,7 @@ It can help to practice using coderpad.io, since it is used for many coding inte
 | Decorator | ✘ |
 | Facade | ✘ |
 | Flyweight | ✘ |
-| Proxy | ✔ |
+| [Proxy](/patterns/structural/proxy.go) | ✔ |
 
 ## Behavioral Patterns
 | Pattern | Status |
