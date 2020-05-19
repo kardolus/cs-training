@@ -2,7 +2,7 @@
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
-I suggest using this list as a warm-up for interview preperation. Follow it up with interview problems from [HackerRank](https://www.hackerrank.com/interview/interview-preparation-kit), [Cracking the coding interview](http://www.crackingthecodinginterview.com/) or [Programming Interviews Exposed](https://www.oreilly.com/library/view/programming-interviews-exposed/9781118283400/). 
+I suggest using this list as a warm-up for interview preperation. Follow it up with interview problems from [HackerRank](https://www.hackerrank.com/interview/interview-preparation-kit), [Cracking the coding interview](http://www.crackingthecodinginterview.com/) or [Programming Interviews Exposed](https://www.oreilly.com/library/view/programming-interviews-exposed/9781118283400/). Alternatively go old school with [Project Euler](https://projecteuler.net/).
 
 It can help to practice using [coderpad.io](https://coderpad.io/), since it is used for many coding interviews.
 
