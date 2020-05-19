@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 17/37](https://img.shields.io/badge/progress-46%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 18/37](https://img.shields.io/badge/progress-49%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -41,7 +41,7 @@
 ## Creational Patterns
 - [ ] Abstract Factory
 - [x] Builder
-- [ ] Factory Method
+- [x] Factory Method
 - [ ] Prototype
 - [x] Singleton
 
