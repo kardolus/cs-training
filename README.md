@@ -51,36 +51,36 @@ It can help to practice using coderpad.io, since it is used for many coding inte
 | [Fibonacci dynamic programming](/sorting/fibonacci.go) | ✔ |
 
 ## Creational Patterns
-| Pattern | Status |
-|:-------:|:------:|
-| Abstract Factory | ✘ |
-| [Builder](/patterns/creational/builder.go) | ✔ |
-| [Factory Method](/patterns/creational/factory_method.go) | ✔ |
-| Prototype | ✘ |
-| [Singleton](/patterns/creational/singleton.go) | ✔ |
+| Pattern | Description | Status |
+|:-------:|:------:|:------:|
+| Abstract Factory | Provides an interface for creating families of releated objects | ✘ |
+| [Builder](/patterns/creational/builder.go) | Builds a complex object using simple objects | ✔ |
+| [Factory Method](/patterns/creational/factory_method.go) | Defers instantiation of an object to a specialized function for creating instances | ✔ |
+| Prototype | | ✘ |
+| [Singleton](/patterns/creational/singleton.go) | Restricts instantiation of a type to one object | ✔ |
 
 ## Structural Patterns
-| Pattern | Status |
-|:-------:|:------:|
-| Adapter | ✘ |
-| Bridge | ✘ |
-| Composite | ✘ |
-| Decorator | ✘ |
-| Facade | ✘ |
-| Flyweight | ✘ |
-| [Proxy](/patterns/structural/proxy.go) | ✔ |
+| Pattern | Description | Status |
+|:-------:|:------:|:------:|
+| Adapter | | ✘ |
+| Bridge | Decouples an interface from its implementation so that the two can vary independently | ✘ |
+| Composite | Encapsulates and provides access to a number of different objects | ✘ |
+| Decorator | Adds behavior to an object, statically or dynamically | ✘ |
+| Facade | Uses one type as an API to a number of others | ✘ |
+| Flyweight | Reuses existing instances of objects with similar/identical state to minimize resource usage | ✘ |
+| [Proxy](/patterns/structural/proxy.go) | Provides a surrogate for an object to control it's actions | ✔ |
 
 ## Behavioral Patterns
-| Pattern | Status |
-|:-------:|:------:|
-| Chain of Responsibility | ✘ |
-| Command | ✘ |
-| Interpreter | ✘ |
-| Iterator | ✘ |
-| Mediator | ✘ |
-| Memento | ✘ |
-| Observer | ✘ |
-| State | ✘ |
-| Strategy | ✘ |
-| Template Method | ✘ |
-| Visitor | ✘ |
+| Pattern | Description | Status |
+|:-------:|:------:|:------:|
+| Chain of Responsibility | Avoids coupling sender and receiver | ✘ |
+| Command | Bundles a command and arguments to call later | ✘ |
+| Interpreter | | ✘ |
+| Iterator | | ✘ |
+| Mediator | Connects objects and acts as a proxy | ✘ |
+| Memento | Generate an opaque token that can be used to go back to a previous state | ✘ |
+| Observer | Provide a callback for notification of events/changes to data | ✘ |
+| State | Encapsulates varying behavior for the same object based on its internal state | ✘ |
+| Strategy | Enables an algorithm's behavior to be selected at runtime | ✘ |
+| Template Method | Defines a skeleton class which defers some methods to subclasses | ✘ |
+| Visitor | Separates an algorithm from an object on which it operates | ✘ |
