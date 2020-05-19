@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 20/36](https://img.shields.io/badge/progress-56%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 21/36](https://img.shields.io/badge/progress-58%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -81,7 +81,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Memento | Generate an opaque token that can be used to go back to a previous state | ✘ |
 | [Observer](/patterns/behavioral/observer.go) | Provide a callback for notification of events/changes to data | ✔ |
 | State | Encapsulates varying behavior for the same object based on its internal state | ✘ |
-| Strategy | Enables an algorithm's behavior to be selected at runtime | ✘ |
+| [Strategy](/patterns/behavioral/strategy.go) | Enables an algorithm's behavior to be selected at runtime | ✔ |
 | Template Method | Defines a skeleton class which defers some methods to subclasses | ✘ |
 | Visitor | Separates an algorithm from an object on which it operates | ✘ |
 
