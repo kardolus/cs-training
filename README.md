@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 22/36](https://img.shields.io/badge/progress-61%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 23/36](https://img.shields.io/badge/progress-64%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -14,7 +14,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Dynamic Programming | An optimization over plain recursion |  ✘ |
 | [Memory (Stack vs Heap)](/concepts/memory_stack_heap.md)| Memory allocation | ✔ |
 | [Bitwise Operations](/concepts/bitwise.go) | Operations on ints and uints at the binary level | ✔ |
-| Hashing | Map data of arbitrary size to fixed-size values | ✘ |
+| [Hashing](/concepts/hashing.md) | Map data of arbitrary size to fixed-size values | ✔ |
 
 ## Data Structures
 | Structure | Access^ | Search^ | Insertion^ | Deletion^ | Status |
