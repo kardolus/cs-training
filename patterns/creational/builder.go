@@ -55,9 +55,7 @@ type HappyMeal struct {
 
 func (h HappyMeal) Main(choice string) Builder {
 	fmt.Println("Your pick:", choice)
-
 	h.YourMain = choice
-
 	return h
 }
 
