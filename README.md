@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 21/36](https://img.shields.io/badge/progress-58%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 22/36](https://img.shields.io/badge/progress-61%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -76,7 +76,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Chain of Responsibility | Avoids coupling sender and receiver | ✘ |
 | Command | Bundles a command and arguments to call later | ✘ |
 | Interpreter | Define a grammatical representation for a language | ✘ |
-| Iterator | Access the elements of an aggregate object sequentially | ✘ |
+| [Iterator](/patterns/behavioral/iterator.go) | Access the elements of an aggregate object sequentially | ✔ |
 | Mediator | Connects objects and acts as a proxy | ✘ |
 | Memento | Generate an opaque token that can be used to go back to a previous state | ✘ |
 | [Observer](/patterns/behavioral/observer.go) | Provide a callback for notification of events/changes to data | ✔ |
