@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 24/36](https://img.shields.io/badge/progress-67%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 25/36](https://img.shields.io/badge/progress-69%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -26,7 +26,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Doubly LinkedList](/data_structures/hash_map_doubly_linked_list.go) | Θ(n) |	Θ(n) | Θ(1) | Θ(1) | ✔ |
 | SkipList | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
 | [Set](/data_structures/set.go) | Θ(n) |	Θ(n) | Θ(1) | Θ(n) | ✔ |
-| HashTable | N/A | Θ(1) | Θ(1) | Θ(1)| ✘ |
+| [HashTable](/data_structures/hash_map_doubly_linked_list.go) | N/A | Θ(1) | Θ(1) | Θ(1)| ✔ |
 | Binary Search Tree | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
 | Trie | | | | | ✘ |
 | Red-Black Tree | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
