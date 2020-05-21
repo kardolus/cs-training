@@ -54,24 +54,20 @@ func (d *DLL) Get(key int) *Element {
 }
 
 func (d *DLL) Remove(key int) {
-	if d.head.element.key == key {
-		d.head = d.head.next
-
-		if d.head != nil {
-			d.head.prev = nil
-		}
-		d.size--
-		return
-	}
-
 	focus := d.head
 
 	for focus != nil {
 		if key == focus.element.key {
-			focus.prev.next = focus.next
+			if focus.prev != nil {
+				focus.prev.next = focus.next
+			}
 
 			if focus.next != nil {
 				focus.next.prev = focus.prev
+			}
+
+			if focus.next == nil && focus.prev == nil {
+				d.head = nil
 			}
 
 			d.size--
@@ -117,27 +113,27 @@ func main() {
 	dll.Add(Element{1, "hi there dude"})
 	fmt.Println("Contains(1)", dll.Contains(1))
 
-	fmt.Println("String()", dll.String())
+	fmt.Println("String()", &dll)
 
 	element := dll.Get(4)
 	element.value = "a new value"
-	fmt.Println("String()", dll.String())
+	fmt.Println("String()", &dll)
 
 	fmt.Println(`---> Remove(4)`)
 	dll.Remove(4)
 	fmt.Println("Size()", dll.Size())
 	fmt.Println("Contains(4)", dll.Contains(4))
-	fmt.Println("String()", dll.String())
+	fmt.Println("String()", &dll)
 
 	fmt.Println(`---> Remove(3)`)
 	dll.Remove(3)
 	fmt.Println("Size()", dll.Size())
 	fmt.Println("Contains(3)", dll.Contains(3))
-	fmt.Println("String()", dll.String())
+	fmt.Println("String()", &dll)
 
 	fmt.Println(`---> Remove(1)`)
 	dll.Remove(1)
 	fmt.Println("Size()", dll.Size())
 	fmt.Println("Contains(1)", dll.Contains(1))
-	fmt.Println("String()", dll.String())
+	fmt.Println("String()", &dll)
 }
