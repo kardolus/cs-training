@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 25/36](https://img.shields.io/badge/progress-69%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 26/36](https://img.shields.io/badge/progress-72%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -62,7 +62,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 ## Structural Patterns
 | Pattern | Description | Status |
 |:-------:|:------:|:------:|
-| Adapter | Wrap an existing class with a new interface | ✘ |
+| [Adapter](/patterns/structural/adapter.go) | Wrap an existing class with a new interface | ✔ |
 | Bridge | Decouples an interface from its implementation so that the two can vary independently | ✘ |
 | Composite | Encapsulates and provides access to a number of different objects | ✘ |
 | Decorator | Adds behavior to an object, statically or dynamically | ✘ |
