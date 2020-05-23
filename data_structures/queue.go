@@ -4,48 +4,6 @@ import (
 	"fmt"
 )
 
-func main() {
-	var queue = NewQueue(2)
-
-	fmt.Println("Empty()", queue.Empty())
-	fmt.Println("Size()", queue.Size())
-	fmt.Println("Contains(3)", queue.Contains(3))
-	fmt.Println("Peek() %+v", wrap(queue.Peek()))
-	fmt.Println("Poll() %+v", wrap(queue.Poll()))
-
-	fmt.Println("----> Offer(3)")
-	queue.Offer(3)
-
-	fmt.Println("Empty()", queue.Empty())
-	fmt.Println("Size()", queue.Size())
-	fmt.Println("Contains(3)", queue.Contains(3))
-	fmt.Println("Peek() %+v", wrap(queue.Peek()))
-	fmt.Println("Poll() %+v", wrap(queue.Poll()))
-	fmt.Println("Size()", queue.Size())
-
-	fmt.Println("----> Offer(3)")
-	queue.Offer(3)
-
-	fmt.Println("----> Offer(4)")
-	queue.Offer(4)
-
-	fmt.Println("Contains(4)", queue.Contains(4))
-	fmt.Println("Peek() %+v", wrap(queue.Peek()))
-	fmt.Println("Size()", queue.Size())
-	fmt.Println("Poll() %+v", wrap(queue.Poll()))
-	fmt.Println("Size()", queue.Size())
-	fmt.Println("Contains(4)", queue.Contains(4))
-	fmt.Println("Contains(3)", queue.Contains(3))
-}
-
-func wrap(vs ...interface{}) []interface{} {
-	return vs
-}
-
-/*
-  Implementation below
-*/
-
 type Queue struct {
 	data []int
 	tail int
@@ -105,4 +63,43 @@ func (q *Queue) copy() {
 		copy(newData, q.data)
 		q.data = newData
 	}
+}
+
+func wrap(vs ...interface{}) []interface{} {
+	return vs
+}
+
+// Run some tests
+func main() {
+	var queue = NewQueue(2)
+
+	fmt.Println("Empty()", queue.Empty())
+	fmt.Println("Size()", queue.Size())
+	fmt.Println("Contains(3)", queue.Contains(3))
+	fmt.Println("Peek() %+v", wrap(queue.Peek()))
+	fmt.Println("Poll() %+v", wrap(queue.Poll()))
+
+	fmt.Println("----> Offer(3)")
+	queue.Offer(3)
+
+	fmt.Println("Empty()", queue.Empty())
+	fmt.Println("Size()", queue.Size())
+	fmt.Println("Contains(3)", queue.Contains(3))
+	fmt.Println("Peek() %+v", wrap(queue.Peek()))
+	fmt.Println("Poll() %+v", wrap(queue.Poll()))
+	fmt.Println("Size()", queue.Size())
+
+	fmt.Println("----> Offer(3)")
+	queue.Offer(3)
+
+	fmt.Println("----> Offer(4)")
+	queue.Offer(4)
+
+	fmt.Println("Contains(4)", queue.Contains(4))
+	fmt.Println("Peek() %+v", wrap(queue.Peek()))
+	fmt.Println("Size()", queue.Size())
+	fmt.Println("Poll() %+v", wrap(queue.Poll()))
+	fmt.Println("Size()", queue.Size())
+	fmt.Println("Contains(4)", queue.Contains(4))
+	fmt.Println("Contains(3)", queue.Contains(3))
 }

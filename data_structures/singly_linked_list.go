@@ -5,46 +5,6 @@ import (
 	"strconv"
 )
 
-func main() {
-	var list LinkedList
-	fmt.Println("Empty?", list.Empty())
-
-	list.Add(3)
-	fmt.Println(list.PrintList())
-	fmt.Println("Empty?", list.Empty())
-	fmt.Println("Size", list.Size())
-	fmt.Println("Contains(3)?", list.Contains(3))
-	fmt.Println("Contains(4)?", list.Contains(4))
-
-	list.Add(4)
-	fmt.Println(list.PrintList())
-	fmt.Println("Empty?", list.Empty())
-	fmt.Println("Size", list.Size())
-	fmt.Println("Contains(3)?", list.Contains(3))
-	fmt.Println("Contains(4)?", list.Contains(4))
-
-	list.Add(2)
-	list.Add(5)
-	list.Add(8)
-	list.Add(4)
-	fmt.Println(list.PrintList())
-	fmt.Println("Size", list.Size())
-	fmt.Println("Contains(8)?", list.Contains(8))
-	list.Remove(8)
-	fmt.Println(list.PrintList())
-	fmt.Println("Size", list.Size())
-	fmt.Println("Contains(8)?", list.Contains(8))
-
-	list.Remove(4)
-	fmt.Println(list.PrintList())
-	fmt.Println("Size", list.Size())
-	fmt.Println("Contains(4)?", list.Contains(4))
-}
-
-/*
-* Implementation starts here
- */
-
 type LinkedList struct {
 	head *node
 	size int
@@ -123,4 +83,40 @@ func (l *LinkedList) PrintList() string {
 	}
 
 	return result
+}
+
+func main() {
+	var list LinkedList
+	fmt.Println("Empty?", list.Empty())
+
+	list.Add(3)
+	fmt.Println(list.PrintList())
+	fmt.Println("Empty?", list.Empty())
+	fmt.Println("Size", list.Size())
+	fmt.Println("Contains(3)?", list.Contains(3))
+	fmt.Println("Contains(4)?", list.Contains(4))
+
+	list.Add(4)
+	fmt.Println(list.PrintList())
+	fmt.Println("Empty?", list.Empty())
+	fmt.Println("Size", list.Size())
+	fmt.Println("Contains(3)?", list.Contains(3))
+	fmt.Println("Contains(4)?", list.Contains(4))
+
+	list.Add(2)
+	list.Add(5)
+	list.Add(8)
+	list.Add(4)
+	fmt.Println(list.PrintList())
+	fmt.Println("Size", list.Size())
+	fmt.Println("Contains(8)?", list.Contains(8))
+	list.Remove(8)
+	fmt.Println(list.PrintList())
+	fmt.Println("Size", list.Size())
+	fmt.Println("Contains(8)?", list.Contains(8))
+
+	list.Remove(4)
+	fmt.Println(list.PrintList())
+	fmt.Println("Size", list.Size())
+	fmt.Println("Contains(4)?", list.Contains(4))
 }

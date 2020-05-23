@@ -2,46 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	var list = NewList()
-	fmt.Println("Empty?", list.Empty())
-
-	list.Add(3)
-	fmt.Println("Empty?", list.Empty())
-	fmt.Println("Contains(3)?", list.Contains(3))
-	fmt.Println("Contains(4)?", list.Contains(4))
-
-	fmt.Println("Size == 1?", list.Size() == 1)
-	list.Add(4)
-	fmt.Println("Contains(4)?", list.Contains(4))
-	fmt.Println("Size == 2?", list.Size() == 2)
-
-	list.Remove(3)
-	fmt.Println("Size == 1?", list.Size() == 1)
-	fmt.Println("Contains(3)?", list.Contains(3))
-
-	list.Add(3)
-	fmt.Println("Contains(3)?", list.Contains(3))
-
-	list.Remove(3)
-	fmt.Println("Size == 1?", list.Size() == 1)
-	fmt.Println("Contains(3)?", list.Contains(3))
-
-	list.Add(7)
-	list.Add(8)
-	list.Add(9)
-	fmt.Println(list.data, list.size)
-	list.Remove(7)
-	fmt.Println(list.data, list.size)
-
-	list.Insert(1, 5)
-	fmt.Println(list.data, list.size)
-}
-
-/*
-* Implementation starts here
- */
-
 type List struct {
 	data []int
 	size int
@@ -111,4 +71,41 @@ func (l *List) copy() {
 		copy(newData, l.data)
 		l.data = newData
 	}
+}
+
+// Run tests
+func main() {
+	var list = NewList()
+	fmt.Println("Empty?", list.Empty())
+
+	list.Add(3)
+	fmt.Println("Empty?", list.Empty())
+	fmt.Println("Contains(3)?", list.Contains(3))
+	fmt.Println("Contains(4)?", list.Contains(4))
+
+	fmt.Println("Size == 1?", list.Size() == 1)
+	list.Add(4)
+	fmt.Println("Contains(4)?", list.Contains(4))
+	fmt.Println("Size == 2?", list.Size() == 2)
+
+	list.Remove(3)
+	fmt.Println("Size == 1?", list.Size() == 1)
+	fmt.Println("Contains(3)?", list.Contains(3))
+
+	list.Add(3)
+	fmt.Println("Contains(3)?", list.Contains(3))
+
+	list.Remove(3)
+	fmt.Println("Size == 1?", list.Size() == 1)
+	fmt.Println("Contains(3)?", list.Contains(3))
+
+	list.Add(7)
+	list.Add(8)
+	list.Add(9)
+	fmt.Println(list.data, list.size)
+	list.Remove(7)
+	fmt.Println(list.data, list.size)
+
+	list.Insert(1, 5)
+	fmt.Println(list.data, list.size)
 }

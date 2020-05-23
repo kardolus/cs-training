@@ -4,45 +4,6 @@ import (
 	"fmt"
 )
 
-func main() {
-	var set = NewSet(2)
-
-	fmt.Println("Size()", set.Size())
-	fmt.Println("Empty()", set.Empty())
-	fmt.Println("Contains(3)", set.Contains(3))
-
-	set.Add(3)
-	fmt.Println("Size()", set.Size())
-	fmt.Println("Empty()", set.Empty())
-	fmt.Println("Contains(3)", set.Contains(3))
-	fmt.Println("Contains(4)", set.Contains(4))
-
-	set.Add(4)
-	fmt.Println("Size()", set.Size())
-	fmt.Println("Contains(4)", set.Contains(4))
-
-	set.Add(3)
-	fmt.Println("Size()", set.Size())
-
-	set.Add(15)
-	fmt.Println("Size()", set.Size())
-
-	set.Add(1)
-	fmt.Println("Size()", set.Size())
-
-	set.Remove(4)
-	fmt.Println("Size()", set.Size())
-	fmt.Println("Contains(4)", set.Contains(4))
-
-	set.Add(4)
-	fmt.Println("Size()", set.Size())
-	fmt.Println("Contains(4)", set.Contains(4))
-}
-
-/*
-  Implementation Below
-*/
-
 type Set struct {
 	data []int
 	size int
@@ -99,4 +60,39 @@ func (s *Set) indexOf(value int) int { // private, order not guaranteed
 		}
 	}
 	return -1
+}
+
+func main() {
+	var set = NewSet(2)
+
+	fmt.Println("Size()", set.Size())
+	fmt.Println("Empty()", set.Empty())
+	fmt.Println("Contains(3)", set.Contains(3))
+
+	set.Add(3)
+	fmt.Println("Size()", set.Size())
+	fmt.Println("Empty()", set.Empty())
+	fmt.Println("Contains(3)", set.Contains(3))
+	fmt.Println("Contains(4)", set.Contains(4))
+
+	set.Add(4)
+	fmt.Println("Size()", set.Size())
+	fmt.Println("Contains(4)", set.Contains(4))
+
+	set.Add(3)
+	fmt.Println("Size()", set.Size())
+
+	set.Add(15)
+	fmt.Println("Size()", set.Size())
+
+	set.Add(1)
+	fmt.Println("Size()", set.Size())
+
+	set.Remove(4)
+	fmt.Println("Size()", set.Size())
+	fmt.Println("Contains(4)", set.Contains(4))
+
+	set.Add(4)
+	fmt.Println("Size()", set.Size())
+	fmt.Println("Contains(4)", set.Contains(4))
 }
