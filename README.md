@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 27/36](https://img.shields.io/badge/progress-75%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 28/36](https://img.shields.io/badge/progress-78%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -37,7 +37,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Algorithm | Best | Average | Worst | Space (Worst) | Status |
 |:-------:|:------:|:------:|:------:|:------:|:------:|
 | [Bubble Sort (Exchange)](/sorting/bubble_sort.go) | Ω(n) | Θ(n^2) | O(n^2) | O(1) | ✔ |
-| Quick Sort (Exchange) | Ω(n log(n)) | Θ(n log(n)) | O(n^2) | O(log(n)) | ✘ |
+| [Quick Sort (Exchange)](/sorting/quick_sort.go) | Ω(n log(n)) | Θ(n log(n)) | O(n^2) | O(log(n)) | ✔ |
 | [Insertion Sort](/sorting/insertion_sort.go) | Ω(n) | Θ(n^2) | O(n^2) | O(1) | ✔ |
 | Heap Sort (Selection) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(1) | ✘ |
 | [Merge Sort](/sorting/merge_sort.go) | Ω(n log(n)) | Θ(n log(n)) | O(n log(n)) | O(n) | ✔ |
