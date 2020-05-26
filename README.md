@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 28/36](https://img.shields.io/badge/progress-78%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 29/36](https://img.shields.io/badge/progress-81%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -45,10 +45,10 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 ## Common Problems
 | Problem | Description | Status |
 |:-------:|:------:|:------:|
-| Maximum subarray | Find a contiguous subarray with the largest sum | ✘ |
-| [Fibonacci iterative](/sorting/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
-| [Fibonacci recursive](/sorting/fibonacci.go) | ,, | ✔ |
-| [Fibonacci dynamic programming](/sorting/fibonacci.go) | ,, | ✔ |
+| [Maximum subarray](/common_problems/maximum_subarray.go) | Find a contiguous subarray with the largest sum | ✔ |
+| [Fibonacci iterative](/common_problems/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
+| [Fibonacci recursive](/common_problems/fibonacci.go) | ,, | ✔ |
+| [Fibonacci dynamic programming](/common_problems/fibonacci.go) | ,, | ✔ |
 
 ## Creational Patterns
 | Pattern | Description | Status |
