@@ -10,25 +10,28 @@ const (
 	Larger
 )
 
-func BinarySearch(sorted []int, value int) int {
-	if len(sorted) == 0 {
+func BinarySearch(sorted []int, start, end, value int) int {
+	if start == end-1 {
+		if sorted[start] == value {
+			return start
+		}
 		return -1
 	}
 
-	switch compareMiddle(sorted, value) {
+	switch compareMiddle(sorted, start, end, value) {
 	case Equal:
-		return 0
+		return (start + end) / 2
 	case Larger:
-		return BinarySearch(sorted[len(sorted)/2+1:], value)
+		return BinarySearch(sorted, (start+end)/2, end, value)
 	case Smaller:
-		return BinarySearch(sorted[0:len(sorted)/2], value)
+		return BinarySearch(sorted, start, (start+end)/2, value)
 	}
 
 	return -1
 }
 
-func compareMiddle(array []int, value int) int {
-	middle := len(array) / 2
+func compareMiddle(array []int, start, end, value int) int {
+	middle := (start + end) / 2
 
 	if value == array[middle] {
 		return Equal
@@ -41,7 +44,10 @@ func compareMiddle(array []int, value int) int {
 
 func main() {
 	var sorted = []int{-10, -8, -5, 0, 4, 16, 18, 23, 26, 30, 35, 41, 50, 55, 59, 67, 69}
-	fmt.Println("compareMiddle(20)", compareMiddle(sorted, 20))
-	fmt.Println("BinarySearch(41)", BinarySearch(sorted, 41))
-	fmt.Println("BinarySearch(41)", BinarySearch(sorted, 3))
+	fmt.Println("compareMiddle(20)", compareMiddle(sorted, 0, len(sorted), 20))
+	fmt.Println("BinarySearch(41)", BinarySearch(sorted, 0, len(sorted), 41))
+	fmt.Println("BinarySearch(3)", BinarySearch(sorted, 0, len(sorted), 3))
+	fmt.Println("BinarySearch(-10)", BinarySearch(sorted, 0, len(sorted), -10))
+	fmt.Println("BinarySearch(69)", BinarySearch(sorted, 0, len(sorted), 69))
+	fmt.Println("BinarySearch(67)", BinarySearch(sorted, 0, len(sorted), 67))
 }

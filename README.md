@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 29/37](https://img.shields.io/badge/progress-78%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 30/37](https://img.shields.io/badge/progress-81%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -46,7 +46,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Problem | Description | Status |
 |:-------:|:------:|:------:|
 | [Maximum subarray](/common_problems/maximum_subarray.go) | Find a contiguous subarray with the largest sum | ✔ |
-| Binary search recursive | Find an item in a sorted array in log(n) time | ✘ |
+| [Binary search recursive](/common_problems/binary_search.go) | Find an item in a sorted array in log(n) time | ✔ |
 | [Fibonacci iterative](/common_problems/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
 | [Fibonacci recursive](/common_problems/fibonacci.go) | ,, | ✔ |
 | [Fibonacci dynamic programming](/common_problems/fibonacci.go) | ,, | ✔ |
