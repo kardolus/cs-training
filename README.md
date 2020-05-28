@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 31/37](https://img.shields.io/badge/progress-84%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 31/50](https://img.shields.io/badge/progress-62%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
