@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 30/37](https://img.shields.io/badge/progress-81%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 31/37](https://img.shields.io/badge/progress-84%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -66,7 +66,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Adapter](/patterns/structural/adapter.go) | Wrap an existing class with a new interface | ✔ |
 | Bridge | Decouples an interface from its implementation so that the two can vary independently | ✘ |
 | Composite | Encapsulates and provides access to a number of different objects | ✘ |
-| Decorator | Adds behavior to an object, statically or dynamically | ✘ |
+| [Decorator](/patterns/structural/decorator.go) | Adds behavior to an object, statically or dynamically | ✔ |
 | Facade | Uses one type as an API to a number of others | ✘ |
 | Flyweight | Reuses existing instances of objects with similar/identical state to minimize resource usage | ✘ |
 | [Proxy](/patterns/structural/proxy.go) | Provides a surrogate for an object to control it's actions | ✔ |
