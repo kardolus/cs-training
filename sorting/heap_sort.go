@@ -5,6 +5,57 @@ import (
 	"math"
 )
 
+func HeapSort(input []int) []int {
+	var result []int
+
+	buildMaxHeap(input)
+
+	for i := len(input) - 1; i > 0; i-- {
+		result = append(result, input[0])
+		input[0] = input[i]
+		input = input[:i]
+		maxHeapify(input, 0)
+	}
+
+	return result
+}
+
+func buildMaxHeap(array []int) {
+	middle := len(array) / 2
+
+	for i := middle; i >= 0; i-- {
+		maxHeapify(array, i)
+	}
+}
+
+func maxHeapify(array []int, index int) {
+	largest := index
+
+	if leftChild(index) < len(array) && array[leftChild(index)] > array[largest] {
+		largest = leftChild(index)
+	}
+	if rightChild(index) < len(array) && array[rightChild(index)] > array[largest] {
+		largest = rightChild(index)
+	}
+
+	if largest != index {
+		array[largest], array[index] = array[index], array[largest]
+		maxHeapify(array, largest)
+	}
+}
+
+func leftChild(index int) int {
+	return index*2 + 1
+}
+
+func rightChild(index int) int {
+	return index*2 + 2
+}
+
+func parent(index int) int {
+	return int(math.Round(float64(index)/2)) - 1
+}
+
 func printHeap(array []int) {
 	// row size is 2^n
 	row := float64(0)
@@ -37,42 +88,6 @@ func height(array []int) int {
 	return 0
 }
 
-func maxHeapify(array []int, index int) {
-	largest := index
-
-	if leftChild(index) < len(array) && array[leftChild(index)] > array[largest] {
-		largest = leftChild(index)
-	}
-	if rightChild(index) < len(array) && array[rightChild(index)] > array[largest] {
-		largest = rightChild(index)
-	}
-
-	if largest != index {
-		array[largest], array[index] = array[index], array[largest]
-		maxHeapify(array, largest)
-	}
-}
-
-func buildMaxHeap(array []int) {
-	middle := len(array) / 2
-
-	for i := middle; i >= 0; i-- {
-		maxHeapify(array, i)
-	}
-}
-
-func leftChild(index int) int {
-	return index*2 + 1
-}
-
-func rightChild(index int) int {
-	return index*2 + 2
-}
-
-func parent(index int) int {
-	return int(math.Round(float64(index)/2)) - 1
-}
-
 func main() {
 	fmt.Println("Parent 5:", parent(5))
 	fmt.Println("Parent 6:", parent(6))
@@ -94,4 +109,8 @@ func main() {
 	fmt.Println("PrintHeap >>>")
 	printHeap(unsorted)
 	fmt.Println("\n<<< PrintHeap")
+
+	var newUnsorted = []int{5, 4, 2, 8, -70, -78, 4, 7, 10, 1, 3, 42, 42, 19, -16, 1000, -4, 6, 17, 1001}
+	fmt.Println("HeapSort input:", newUnsorted)
+	fmt.Println("HeapSorted:", HeapSort(newUnsorted))
 }
