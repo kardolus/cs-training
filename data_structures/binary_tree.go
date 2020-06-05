@@ -166,6 +166,30 @@ func Maximum(focus *node) int {
 	return result
 }
 
+func BreadthFrist(focus *node) {
+	queue := []*node{focus}
+
+	i := 0
+	j := 1
+
+	for i != j {
+		if queue[i].left != nil {
+			queue = append(queue, queue[i].left)
+			j++
+		}
+		if queue[i].right != nil {
+			queue = append(queue, queue[i].right)
+			j++
+		}
+		i++
+	}
+
+	for _, item := range queue {
+		fmt.Printf("[%d]", item.value)
+	}
+	fmt.Println()
+}
+
 func main() {
 	var tree BinaryTree
 	var input = []int{20, 8, 25, 34, 9, 5, 50, 40, 7, 15, 8, 51, 47}
@@ -192,4 +216,6 @@ func main() {
 	fmt.Println("Predecessor(9)", tree.Predecessor(9))
 	fmt.Println("Predecessor(15)", tree.Predecessor(15))
 	fmt.Println("Predecessor(50)", tree.Predecessor(50))
+	fmt.Println("BreadthFirst: --->")
+	BreadthFrist(tree.head)
 }
