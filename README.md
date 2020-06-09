@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 32/50](https://img.shields.io/badge/progress-64%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 34/52](https://img.shields.io/badge/progress-65%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -29,6 +29,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [HashTable](/data_structures/hash_map_doubly_linked_list.go) | N/A | Θ(1) | Θ(1) | Θ(1)| ✔ |
 | [Binary Search Tree](/data_structures/binary_tree.go) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✔ |
 | Trie | | | | | ✘ |
+| [Graph](/data_structures/graph.go) | | | | | ✔ |
 | Red-Black Tree | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | ✘ |
 
 ^ = average
@@ -46,6 +47,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | Problem | Description | Status |
 |:-------:|:------:|:------:|
 | [Maximum subarray](/common_problems/maximum_subarray.go) | Find a contiguous subarray with the largest sum | ✔ |
+| [Sliding window method](/common_problems/sliding_window_method.go) | Find all anagrams in a string | ✔ |
 | [Binary search recursive](/common_problems/binary_search.go) | Find an item in a sorted array in log(n) time | ✔ |
 | [Fibonacci iterative](/common_problems/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
 | [Fibonacci recursive](/common_problems/fibonacci.go) | ,, | ✔ |
