@@ -170,16 +170,13 @@ func BreadthFrist(focus *node) {
 	queue := []*node{focus}
 
 	i := 0
-	j := 1
 
-	for i != j {
+	for i < len(queue) {
 		if queue[i].left != nil {
 			queue = append(queue, queue[i].left)
-			j++
 		}
 		if queue[i].right != nil {
 			queue = append(queue, queue[i].right)
-			j++
 		}
 		i++
 	}
