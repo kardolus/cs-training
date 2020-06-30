@@ -187,6 +187,23 @@ func BreadthFrist(focus *node) {
 	fmt.Println()
 }
 
+func DepthFirstIterative(focus *node) {
+	var stack []*node
+
+	for focus != nil || len(stack) != 0 {
+		if focus == nil {
+			fmt.Printf("[%d]", stack[len(stack)-1].value)
+			focus = stack[len(stack)-1].right
+			stack = stack[:len(stack)-1]
+		} else {
+			stack = append(stack, focus)
+			focus = focus.left
+		}
+	}
+
+	fmt.Println()
+}
+
 func main() {
 	var tree BinaryTree
 	var input = []int{20, 8, 25, 34, 9, 5, 50, 40, 7, 15, 8, 51, 47}
@@ -215,4 +232,6 @@ func main() {
 	fmt.Println("Predecessor(50)", tree.Predecessor(50))
 	fmt.Println("BreadthFirst: --->")
 	BreadthFrist(tree.head)
+	fmt.Println("DepthFirstIteraative: --->")
+	DepthFirstIterative(tree.head)
 }
