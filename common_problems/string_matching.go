@@ -13,10 +13,10 @@ const (
 // Great explanation of Rabin-Karp:
 // https://www.cs.princeton.edu/courses/archive/spring14/cos226/lectures/53SubstringSearch.pdf
 
-func hash(input string, length int) int { // Horner's method
+func hash(input string, length int) int {
 	var hash int
 
-	for index, char := range input {
+	for index, char := range input { // Horner's method
 		hash = (hash*base + int(char)) % prime
 		if index == length-1 {
 			break
@@ -33,7 +33,7 @@ func findSubstring(text, pattern string) int {
 
 	var runes = []rune(text)
 
-	for i := len(pattern); i < len(text); i++ {
+	for i := len(pattern); i < len(text); i++ { // Rolling hash
 		if patternHash == textHash && pattern == text[i-len(pattern):i] {
 			return i - len(pattern)
 		}
