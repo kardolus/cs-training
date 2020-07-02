@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 34/53](https://img.shields.io/badge/progress-64%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 35/53](https://img.shields.io/badge/progress-66%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -49,7 +49,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Maximum subarray](/common_problems/maximum_subarray.go) | Find a contiguous subarray with the largest sum | ✔ |
 | [Sliding window method](/common_problems/sliding_window_method.go) | Find all anagrams in a string | ✔ |
 | [Binary search recursive](/common_problems/binary_search.go) | Find an item in a sorted array in log(n) time | ✔ |
-| Rabin-Karp | Rolling hash algorithm used for string-matching | ✘ |
+| [Rabin-Karp](/common_problems/string_matching.go) | Rolling hash algorithm used for string-matching | ✔ |
 | [Fibonacci iterative](/common_problems/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
 | [Fibonacci recursive](/common_problems/fibonacci.go) | ,, | ✔ |
 | [Fibonacci dynamic programming](/common_problems/fibonacci.go) | ,, | ✔ |
