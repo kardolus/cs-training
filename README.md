@@ -51,6 +51,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Binary search recursive](/common_problems/binary_search.go) | Find an item in a sorted array in log(n) time | ✔ |
 | [Rabin-Karp](/common_problems/string_matching.go) | Rolling hash algorithm used for string-matching | ✔ |
 | [Prime Numbers](/common_problems/ugly_numbers.go) | Fermat, Pollard's rho, trial division | ✔ |
+| [Topological Sort](/common_problems/topological_sort.go) | Sort nodes in a graph | ✔ |
 | [Fibonacci iterative](/common_problems/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
 | [Fibonacci recursive](/common_problems/fibonacci.go) | ,, | ✔ |
 | [Fibonacci dynamic programming](/common_problems/fibonacci.go) | ,, | ✔ |
