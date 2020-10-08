@@ -10,6 +10,32 @@ const (
 	Larger
 )
 
+// Here's iterative. 
+func search(nums []int, target int) int {
+    start := 0
+    end := len(nums)
+    
+    for {
+        if start == end - 1 {
+            if nums[start] == target {
+                return 0
+            } 
+            return -1
+        }
+        
+        middle := (end+start)/2
+        if nums[middle] == target {
+            return middle
+        }
+        if nums[middle] < target {
+            start = middle
+            continue
+        }
+        end = middle
+    }
+}
+
+// Here's recursive
 func BinarySearch(sorted []int, start, end, value int) int {
 	if start == end-1 {
 		if sorted[start] == value {
