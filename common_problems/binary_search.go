@@ -4,12 +4,6 @@ import (
 	"fmt"
 )
 
-const (
-	Smaller = iota - 1
-	Equal
-	Larger
-)
-
 // Here's iterative. 
 func search(nums []int, target int) int {
     start := 0
@@ -36,6 +30,12 @@ func search(nums []int, target int) int {
 }
 
 // Here's recursive
+const (
+	Smaller = iota - 1
+	Equal
+	Larger
+)
+
 func BinarySearch(sorted []int, start, end, value int) int {
 	if start == end-1 {
 		if sorted[start] == value {
