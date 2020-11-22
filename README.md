@@ -1,4 +1,4 @@
-# Computer Science Training ![progress 38/56](https://img.shields.io/badge/progress-68%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
+# Computer Science Training ![progress 39/57](https://img.shields.io/badge/progress-68%25-blue) ![license](https://img.shields.io/github/license/kardolus/cs-training)
 
 ![gopher from ashleymcnamara](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png "Logo Title Text 1")
 
@@ -52,7 +52,8 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Rabin-Karp](/common_problems/string_matching.go) | Rolling hash algorithm used for string-matching | ✔ |
 | [Prime Numbers](/common_problems/ugly_numbers.go) | Fermat, Pollard's rho, trial division | ✔ |
 | [Topological Sort](/common_problems/topological_sort.go) | Sort nodes in a graph | ✔ |
-| [Permutations](/common_problems/permutations.go) | Find all permutations | ✔ |
+| [Permutations (Recursive)](/common_problems/permutations.go) | Find all permutations | ✔ |
+| [Permutations (Factorial)](/common_problems/factorial_number_system.go) | Find all permutations | ✔ |
 | [Fibonacci iterative](/common_problems/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
 | [Fibonacci recursive](/common_problems/fibonacci.go) | ,, | ✔ |
 | [Fibonacci dynamic programming](/common_problems/fibonacci.go) | ,, | ✔ |
