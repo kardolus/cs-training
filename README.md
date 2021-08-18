@@ -53,6 +53,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Prime Numbers](/common_problems/ugly_numbers.go) | Fermat, Pollard's rho, trial division | ✔ |
 | [Topological Sort](/common_problems/topological_sort.go) | Sort nodes in a graph | ✔ |
 | [Permutations (Recursive)](/common_problems/permutations.go) | Find all permutations | ✔ |
+| [Permutations (Iterative)](/common_problems/permutations_iterative.go) | Find all permutations | ✔ |
 | [Permutations (Factorial)](/common_problems/factorial_number_system.go) | Find all permutations | ✔ |
 | [Fibonacci iterative](/common_problems/fibonacci.go) | Approximation in integers to the logarithmic spiral series | ✔ |
 | [Fibonacci recursive](/common_problems/fibonacci.go) | ,, | ✔ |
