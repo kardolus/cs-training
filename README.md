@@ -15,6 +15,7 @@ It can help to practice using [coderpad.io](https://coderpad.io/), since it is u
 | [Memory (Stack vs Heap)](/concepts/memory_stack_heap.md)| Memory allocation | ✔ |
 | [Bitwise Operations](/concepts/bitwise.go) | Operations on ints and uints at the binary level | ✔ |
 | [Hashing](/concepts/hashing.md) | Map data of arbitrary size to fixed-size values | ✔ |
+| [Permutations and Combinations](/concepts/permutations-combinations.md) | Find all permutations or combinations | ✔ |
 
 ## Data Structures
 | Structure | Access^ | Search^ | Insertion^ | Deletion^ | Status |
